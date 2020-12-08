@@ -5,7 +5,7 @@
 
 body {
     margin: o;
-    background: url("./snow.jpg");
+    background: url("./samg.png");
     background-position: center center;
     background-size: cover;
     min-height: 100vh;
@@ -57,17 +57,51 @@ h2 {
     font-size: 1.3rem;
 }
 
+
+/* footer section styling */
+
+footer {
+  
+  margin-top: 3rem;
+  text-align: center;
+  
+}
+
+footer span a {
+  color: crimson;
+  text-decoration: none;
+}
+
+footer span a:hover {
+  text-decoration: underline;
+}
+
+
 @media (max-width: 500px) {
+  body{
+  background: url("./Cel.png")
+  background-size: cover;
+  background-size: 500px 800px ;
+  }
     h2 {
-        font-size: 2rem;
+        font-size: 3rem;
+        margin-top: 2rem;
+        text-align: center;
     }
     .countdown-container {
+      
         width: 400px;
-        height: 600px;
+        height: 200px;
         border-radius: 1rem;
         box-shadow: 5px 0px 12px rgb(5, 0, 0) inset;
     }
     .big-text {
         font-size: 2rem;
+        line-height: .5;
+      
     }
+    .date{
+      margin-left: .5rem;
+    }
+
 }
