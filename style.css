@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Texturina:wght@900&family=Yeon+Sung&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: o;
+    background: url("./snow.jpg");
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Yeon Sung', cursive;
+    /* text-align: justify; */
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 4rem;
+    /* margin-top: -10rem; */
+    text-align: center;
+}
+
+.countdown-container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 420px;
+    margin: 20px;
+    border-radius: 1rem;
+    box-shadow: 5px 0px 12px rgb(5, 0, 0) inset;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0 6rem;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    flex-direction: row;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.3rem;
+}
